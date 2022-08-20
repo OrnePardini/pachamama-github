@@ -1,0 +1,297 @@
+/* MOBILE LAST */
+
+/* Colors
+#ffffff - white
+#e9e7d - beige fondo logo
+#cb997e - marroncito
+#f4f3ee - cremita
+#e58461 - rosa viejo
+#000000 - black
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;600;700&family=Montserrat:wght@300;600;900&display=swap');
+/* font-family: 'Hind', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER AND FOOTER*/
+.header {
+    background-image: linear-gradient(to right, #e9e7da 50%, white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 200px;
+    padding: 10px;
+}
+
+.header ul,
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header li,
+.footer li {
+    padding: 15px;
+}
+
+.header a,
+.footer a,
+.footer p {
+    color: #cb997e;
+}
+
+.header a:hover,
+.footer a:hover {
+    color: #e58461;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p {
+    color: #f4f3ee;
+}
+
+/* MainIndex */
+
+.mainIndex {
+    min-height: 80vh;
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainIndex h1,
+.mainIndex h2 {
+    padding: 10px;
+}
+
+.mainIndex h1{
+    font-size: 40px;
+}
+
+/* MainProductos */
+
+.mainProductos {
+    background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/03-shiri1-46c59247bf3404383e16068387715475-1024-1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainProductos h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.gridCards {
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gridCards img {
+    width: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 242px;
+    padding: 17px;
+    margin: 16px;
+    background-color: #f4f3ee;
+}
+
+.card h3 {
+    font-weight: 600;
+    margin: 17px;
+    height: 20px;
+}
+
+.card button {
+    margin: 5px;
+    padding: 3px;
+    height: 30px;
+    width: 197px;
+}
+
+/* MainQuienesSomos*/
+.quienesSomos {
+    min-height: 57vh;
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.qsBackbround {
+    background-color: rgba(240, 255, 255, 0.662);
+    margin: auto 60px;
+}
+
+.quienesSomos h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.quienesSomos p {
+    text-align: center;
+    line-height: 2;
+    padding: 10px 66px;
+    margin: 5px;
+    /* font-size: 120%; */
+    /* font-weight: 600; */
+}
+
+/*Main FaQ*/
+.mainFaq {
+    min-height: 79vh;
+    background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/55-shiri21-8e7f759a65d675b49f16068384488485-1024-1024.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faqBackground {
+    background-color: rgba(240, 255, 255, 0.844);
+    margin: auto 60px;
+}
+
+.faqBackground h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.faqBackground h2 {
+    margin: 10px 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.faqBackground p {
+    margin: 8px 160px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main Contacto */
+.mainContacto {
+    min-height: 50vh;
+    background-image: url("https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/products/sorbete-aluminio1-836ec43b0fe50a332515730477862939-1024-1024.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contactoBackground {
+    background-color: rgba(240, 255, 255, 0.844);
+    margin: auto 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactoBackground form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactoBackground h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contactoBackground p {
+    margin: 8px 160px;
+    padding: 10px;
+    text-align: center;
+    font-size: 120%;
+}
+
+.contactoBackground form input, .contactoBackground form textarea {
+    margin: 8px 160px;
+    padding: 10px;
+    text-align: center;
+    font-size: 120%;
+}
+
+input:focus, textarea:focus{
+    background-color: #e58461e7;
+}
+
+/* Tamaño Mediano */
+@media(max-width: 740px) {
+    .header {
+        flex-direction: column;
+        background-color: #e9e7da;
+        background-image: none;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .mainIndex {
+        min-height: 70vh;
+    }
+
+    .gridCards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        align-items: center;
+        justify-items: center;
+    }
+
+    .faqBackground p {
+        margin: 8px 50px;
+    }
+}
+
+
+/* Tamaño Chico */
+@media(max-width: 510px) {
+
+    .gridGaleria {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+
+    .gridCards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
