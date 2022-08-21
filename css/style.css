@@ -83,10 +83,11 @@ font-family: 'Montserrat', sans-serif; */
     justify-content: space-between;
 }
 
-.mainIndex h1,
+
 .mainIndex h2 {
     padding: 10px;
 }
+
 
 .mainIndex h1{
     font-size: 40px;
