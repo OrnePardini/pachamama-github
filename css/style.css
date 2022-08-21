@@ -84,13 +84,21 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 
-.mainIndex h2 {
+.mainIndex h2{
     padding: 10px;
 }
 
 
 .mainIndex h1{
     font-size: 40px;
+    padding: 10px;
+}
+
+.mainIndex h1:hover{
+    color: #e58461;
+    font-weight: bold;
+    transform: skew(-10deg);
+    transition: 1s;
 }
 
 /* MainProductos */
