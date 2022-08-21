@@ -36,7 +36,7 @@ font-family: 'Montserrat', sans-serif; */
 }
 
 .navbar{
-    background-image: linear-gradient(to right, #e9e7da 50%, white);
+    background-image: linear-gradient(to right, #e9e7da 70%, white);
 }
 
 .navbar-nav{
@@ -90,12 +90,8 @@ font-family: 'Montserrat', sans-serif; */
 
 /* MainIndex */
 
-/* .carouselPadre{
-    width: 50vw;
-    margin: 0 auto;
-} */
 
-/* .mainIndex {
+.mainIndex {
     min-height: 80vh;
     background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
     background-size: cover;
@@ -106,7 +102,7 @@ font-family: 'Montserrat', sans-serif; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-} */
+}
 
 .tituloIndex{
     display: flex;
