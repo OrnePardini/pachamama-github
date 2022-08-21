@@ -28,10 +28,30 @@ font-family: 'Montserrat', sans-serif; */
     align-items: center;
 }
 
-.header img {
-    width: 200px;
-    padding: 10px;
+
+
+.navbar-brand img {
+    width: 230px;
+    padding: 5px;
 }
+
+.navbar{
+    background-image: linear-gradient(to right, #e9e7da 50%, white);
+}
+
+.navbar-nav{
+    align-items: flex-end
+}
+
+.nav-link{
+    color: #cb997e;
+    font-size: large;
+}
+.nav-link:hover {
+    color: #e58461;
+    font-weight: bold;
+}
+
 
 .header ul,
 .footer ul {
@@ -70,7 +90,12 @@ font-family: 'Montserrat', sans-serif; */
 
 /* MainIndex */
 
-.mainIndex {
+/* .carouselPadre{
+    width: 50vw;
+    margin: 0 auto;
+} */
+
+/* .mainIndex {
     min-height: 80vh;
     background-image: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/001/070/304/themes/idea/slide-1606843316359-4482945457-e667eabb42cae97dc7e4c9348ff1a0471606843329.jpg?886905166');
     background-size: cover;
@@ -81,24 +106,34 @@ font-family: 'Montserrat', sans-serif; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+} */
+
+.tituloIndex{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #e9e7da 50%, white);
+    margin:10px auto;
+}
+.textoCarousel{
+    color: black;
 }
 
 
-.mainIndex h2{
+.mainIndex h2 {
     padding: 10px;
 }
 
 
-.mainIndex h1{
+.mainIndex h1 {
     font-size: 40px;
     padding: 10px;
 }
 
-.mainIndex h1:hover{
+.mainIndex h1:hover {
     color: #e58461;
     font-weight: bold;
     transform: skew(-10deg);
-    transition: 1s;
+    transition: 2s;
 }
 
 /* MainProductos */
@@ -251,14 +286,16 @@ font-family: 'Montserrat', sans-serif; */
     font-size: 120%;
 }
 
-.contactoBackground form input, .contactoBackground form textarea {
+.contactoBackground form input,
+.contactoBackground form textarea {
     margin: 8px 160px;
     padding: 10px;
     text-align: center;
     font-size: 120%;
 }
 
-input:focus, textarea:focus{
+input:focus,
+textarea:focus {
     background-color: #e58461e7;
 }
 
